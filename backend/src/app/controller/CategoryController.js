@@ -1,8 +1,7 @@
-const ContactsRepository = require('../repositories/ContactsRepository');
 const CategoriesRepository = require('../repositories/CategoriesRepository');
 
 class CategoryController {
-    async index(req, res) {
+    async index(_req, res) {
         // listar todos os registros de contatos
         const categories = await CategoriesRepository.findAll();
         res.json(categories);
