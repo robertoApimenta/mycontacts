@@ -10,7 +10,6 @@ import trash from '../../assets/images/trash.png';
 
 export default function Home() {
   return (
-
     <Container>
       <InputSearchContainer>
         <input type="text" placeholder="Pesquisar" />
